@@ -1,3 +1,9 @@
+---
+layout: default
+title: Building Apache Fineract® with IntelliJ IDEA
+nav_order: 2
+---
+
 ## Building Apache Fineract® with IntelliJ IDEA
 
 ### Prerequisites
