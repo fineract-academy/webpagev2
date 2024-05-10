@@ -6,8 +6,18 @@ url: https://fineract-academy.com
 
 # External navigation links
 nav_external_links:
-  - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
+  - title: Official Apache Fineract® webpage
+    url: https://fineract.apache.org/
+    opens_in_new_tab: true
+  - title: Official Apache Fineract® mailing list
+    url: https://lists.apache.org/list.html?dev@fineract.apache.org
+    opens_in_new_tab: true
+  - title: Official Apache Fineract® Jira
+    url: https://issues.apache.org/jira/projects/FINERACT
+    opens_in_new_tab: true
+  - title: Official Apache Fineract® Confluence
+    url: https://cwiki.apache.org/confluence/display/FINERACT/Fineract+Home
+    opens_in_new_tab: true
     
 # Back to top link
 back_to_top: true
