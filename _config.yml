@@ -4,9 +4,16 @@ theme: just-the-docs
 
 url: https://fineract-academy.com
 
+# External navigation links
+nav_external_links:
+  - title: Just the Docs on GitHub
+    url: https://github.com/just-the-docs/just-the-docs
+    
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
+
+
 
 footer_content: "<p><h3>Would you like to reuse/share an article?</h3><p>No problem, but please share the source is the <b>fineract-academy.com</b>! ;)</p></p>"
 
