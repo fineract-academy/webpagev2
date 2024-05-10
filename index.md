@@ -1,6 +1,7 @@
 ---
-title: Home
+title: Homepage
 layout: home
+nav_order: 1
 ---
 
 <h3 style="color:red">WORK IN PROGRESS</h3>
