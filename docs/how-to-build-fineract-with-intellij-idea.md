@@ -100,7 +100,7 @@ This should get you started with building and running Apache Fineract® using In
    * Default tenant encryption: `AES/CBC/PKCS5Padding`
       * To override set the `FINERACT_DEFAULT_TENANTDB_ENCRYPTION` environment variable
     
-*The list of configuration is not complete!*
+**The list of configuration is not complete!**
     
 ### Optional extra configurations
 1. Use `http` instead of `https` and use `8080` port instead of `8443`
