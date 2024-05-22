@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /how-to-build-fineract-with-intellij-idea.html
 title: Building Apache Fineract® with IntelliJ IDEA
 nav_order: 2
 ---
