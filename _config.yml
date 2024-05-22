@@ -1,7 +1,7 @@
 title: Fineract® Academy
 description: unofficial learning space of Apache Fineract®
 theme: just-the-docs
-
+ga_tracking: G-ZN98YLHK30
 url: https://fineract-academy.com
 
 # External navigation links
@@ -22,7 +22,6 @@ nav_external_links:
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
-
 
 
 footer_content: "<p><h3>Would you like to reuse/share an article?</h3><p>No problem, but please share the source is the <b>fineract-academy.com</b>! ;)</p></p>"
