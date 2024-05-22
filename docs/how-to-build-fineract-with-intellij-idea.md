@@ -10,6 +10,7 @@ nav_order: 2
 1. **Java**: Ensure you have Java Development Kit (JDK) installed. Apache Fineract® typically requires Java 17 (Java 21 is not yet supported).
 2. **Git**: You'll need Git to clone the Apache Fineract® source code from the repository.
 3. **IntelliJ IDEA**: Install IntelliJ IDEA (Community or Ultimate edition).
+   
 ### Steps
 1. **Clone the Apache Fineract® Repository:**
    - Open a terminal or command prompt and navigate to the directory where you want to store the Apache Fineract® source code.
@@ -65,11 +66,14 @@ This should get you started with building and running Apache Fineract® using In
 - By default the application will be using a self-signed TLS protocol (`https`) and port: `8443`
 - By default the application will connect to MariaDB on localhost (port:`3306`).
   * Default credentials: `root/mysql`
+    
 ### Optional extra configurations
 1. Use `http` instead of `https` and use `8080` port instead of `8443`
   - Set the following `Environment variables`:
-    - FINERACT_SERVER_SSL_ENABLED=false
-    - server.port=8080
+    ```
+    FINERACT_SERVER_SSL_ENABLED=false
+    server.port=8080
+    ```
 2. Use `Postgres` as Database engine
    - Set the following `Environment variables`:
      - FINERACT_HIKARI_DRIVER_SOURCE_CLASS_NAME=org.postgresql.Driver
