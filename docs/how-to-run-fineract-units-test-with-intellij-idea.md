@@ -30,7 +30,7 @@ nav_order: 3
    - Open the `build.gradle` file in the project root directory.
    - IntelliJ IDEA will automatically start downloading the dependencies, if not you can do it manually as well by opening the "Gradle" window and click on `Reload All Gradle Projects`.
    - Further configurations can be found in the `settings.gradle` file
-5. **Where is the unit tests?**
+5. **Where are the unit tests?**
    - You can find the unit tests in the `fineract-provider` module under `/src/test` directory
    - There are 2 types of tests:
       * JUnit tests (legacy)
