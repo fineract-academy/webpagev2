@@ -36,7 +36,7 @@ nav_order: 3
       * JUnit tests (legacy)
       * Cucumber tests (new way)
 6. **Execute unit tests**
-   - To execute JUnit tests
+   - **To execute JUnit tests**
       - Open the unit test class and click on the green triangle icon next to the class name to execute all of the tests or click on the green triangle icon next to one of the test methods to execute only that test case
       - Alternatively: 
          - Go to `Run` > `Edit Configurations`.
@@ -48,7 +48,7 @@ nav_order: 3
            - Select `Class` as type of search
            - Fully qualified name of the class that contains tests: `org.apache.fineract.infrastructure.businessdate.api.BusinessDateApiTest` (example)
            - Working directory: `$MODULE_WORKING_DIR$`
-   - To execute Cucumber tests
+   - **To execute Cucumber tests**
       - **IMPORTANT: This functionality requires [Cucumber for Java](https://plugins.jetbrains.com/plugin/7212-cucumber-for-java) plugin to be installed in the IntelliJ IDEA!**
       - Open the cucumber feature file you would like to execute
          - You can find them under `/src/test/resources/features` directory
@@ -62,7 +62,7 @@ nav_order: 3
            - Program arguments: `--plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter`
            - Working directory: `$MODULE_WORKING_DIR$`
            - Use classpath of module: `fineract.fineract-provider.test`
-   - To execute every unit tests (JUnit and Cucumber as well)
+   - **To execute every unit tests (JUnit and Cucumber as well)**
       - Right click on `src/test/java` directory in `fineract-provider` module and select `Run Tests in java` option
       - Alternatively: 
          - Go to `Run` > `Edit Configurations`.
