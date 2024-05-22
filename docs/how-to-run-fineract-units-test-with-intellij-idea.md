@@ -35,7 +35,7 @@ nav_order: 3
    - There are 2 types of tests:
       * JUnit tests (legacy)
       * Cucumber tests (new way)
-6. **Execute unit tests
+6. **Execute unit tests**
    - To execute JUnit tests
       - Open the unit test class and click on the green triangle icon next to the class name to execute all of the tests or click on the green triangle icon next to one of the test methods to execute only that test case
       - Alternatively: 
@@ -47,7 +47,7 @@ nav_order: 3
            - VM options: -ea
            - Select `Class` as type of search
            - Fully qualified name of the class that contains tests: `org.apache.fineract.infrastructure.businessdate.api.BusinessDateApiTest` (example)
-           - Working directory: $MODULE_WORKING_DIR$
+           - Working directory: `$MODULE_WORKING_DIR$`
    - To execute Cucumber tests
       - *IMPORTANT: This functionality requires [Cucumber for Java](https://plugins.jetbrains.com/plugin/7212-cucumber-for-java) plugin to be installed in the IntelliJ IDEA!*
       - Open the cucumber feature file you would like to execute
@@ -60,7 +60,7 @@ nav_order: 3
            - Main class: `io.cucumber.core.cli.Main`
            - Feature or folder path: `/<your fineract installation path>/fineract-provider/src/test/resources/features/accounting/accounting.common.feature` (example)
            - Program arguments: ` --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter`
-           - Working directory: $MODULE_WORKING_DIR$
+           - Working directory: `$MODULE_WORKING_DIR$`
            - Use classpath of module: `fineract.fineract-provider.test`
    - To execute every unit tests (JUnit and Cucumber as well)
       - Right click on `src/test/java` directory in `fineract-provider` module and select `Run `Test in java`` option
@@ -73,7 +73,7 @@ nav_order: 3
            - VM options: -ea
            - Select `All in directory` as type of search
            - Fully qualified path of the directory: `/<your fineract installation path>/fineract-provider/src/test/java`
-           - Working directory: $MODULE_WORKING_DIR$    
+           - Working directory: `$MODULE_WORKING_DIR$`
              
 ### Important
 Keep in mind that Apache Fineract® is a complex project, and you may encounter issues or need to configure additional settings based on your specific environment and requirements. It's a good practice to refer to the official Apache Fineract® documentation and the project's developer community for more details and troubleshooting!
