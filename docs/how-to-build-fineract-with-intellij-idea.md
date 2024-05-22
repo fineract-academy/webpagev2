@@ -66,6 +66,40 @@ This should get you started with building and running Apache Fineract® using In
 - By default the application will be using a self-signed TLS protocol (`https`) and port: `8443`
 - By default the application will connect to MariaDB on localhost (port:`3306`).
   * Default credentials: `root/mysql`
+  * Default tenants storage database: `fineract_tenants`
+     * This database will store the tenant details and connection information to the tenant databases
+  * Database driver: `org.mariadb.jdbc.Driver` (by default)
+     * To override set the `FINERACT_HIKARI_DRIVER_SOURCE_CLASS_NAME` environment variable
+  * JDBC url: `jdbc:mariadb://localhost:3306/fineract_tenants`
+     * To override set the `FINERACT_HIKARI_JDBC_URL` environment variable
+  * Database username: `root`
+     * To override set the `FINERACT_HIKARI_USERNAME` environment variable
+  * Database password: `password`
+     * To override set the `FINERACT_HIKARI_PASSWORD` environment variable
+- By default the liquibase scripts will create a new tenant with the below configurations
+   * Default tenant identifier: `default`
+      * To override set the `FINERACT_DEFAULT_TENANTDB_IDENTIFIER` environment variable
+   * Default tenant database host: `localhost`
+      * To override set the `FINERACT_DEFAULT_TENANTDB_HOSTNAME` environment variable
+   * Default tenant database port: `3306`
+      * To override set the `FINERACT_DEFAULT_TENANTDB_PORT` environment variable
+   * Default tenant database username: `root`
+      * To override set the `FINERACT_DEFAULT_TENANTDB_UID` environment variable
+   * Default tenant database password: `mysql`
+      * To override set the `FINERACT_DEFAULT_TENANTDB_PWD` environment variable
+   * Default tenant timezone: `Asia/Kolkata`
+      * To override set the `FINERACT_DEFAULT_TENANTDB_TIMEZONE` environment variable
+   * Default tenant name: `fineract_default`
+      * To override set the `FINERACT_DEFAULT_TENANTDB_NAME` environment variable
+   * Default tenant description: `Default Demo Tenant`
+      * To override set the `FINERACT_DEFAULT_TENANTDB_DESCRIPTION` environment variable
+   * Default tenant master password: `fineract` 
+      * To override set the `FINERACT_DEFAULT_TENANTDB_MASTER_PASSWORD` environment variable
+      * *IMPORTANT: During the first time the liquibase executed the plain text password got encrypted with the provided master password*
+   * Default tenant encryption: `AES/CBC/PKCS5Padding`
+      * To override set the `FINERACT_DEFAULT_TENANTDB_ENCRYPTION` environment variable
+    
+*The list of configuration is not complete!*
     
 ### Optional extra configurations
 1. Use `http` instead of `https` and use `8080` port instead of `8443`
@@ -76,6 +110,7 @@ This should get you started with building and running Apache Fineract® using In
     ```
 2. Use `Postgres` as Database engine
    - Set the following `Environment variables`:
+     - Use Postgres Driver
        ```
        FINERACT_HIKARI_DRIVER_SOURCE_CLASS_NAME=org.postgresql.Driver
        ```
