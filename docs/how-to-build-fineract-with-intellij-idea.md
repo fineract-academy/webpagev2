@@ -96,7 +96,7 @@ This should get you started with building and running Apache Fineract® using In
       * To override set the `FINERACT_DEFAULT_TENANTDB_DESCRIPTION` environment variable
    * Default tenant master password: `fineract` 
       * To override set the `FINERACT_DEFAULT_TENANTDB_MASTER_PASSWORD` environment variable
-      * *IMPORTANT: During the first time the liquibase executed the plain text password got encrypted with the provided master password*
+      * **IMPORTANT: During the first time the liquibase executed the plain text password got encrypted with the provided master password**
    * Default tenant encryption: `AES/CBC/PKCS5Padding`
       * To override set the `FINERACT_DEFAULT_TENANTDB_ENCRYPTION` environment variable
     
