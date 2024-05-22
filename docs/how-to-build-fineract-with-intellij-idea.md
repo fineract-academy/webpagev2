@@ -76,7 +76,9 @@ This should get you started with building and running Apache Fineract® using In
     ```
 2. Use `Postgres` as Database engine
    - Set the following `Environment variables`:
-     - FINERACT_HIKARI_DRIVER_SOURCE_CLASS_NAME=org.postgresql.Driver
+       ```
+       FINERACT_HIKARI_DRIVER_SOURCE_CLASS_NAME=org.postgresql.Driver
+       ```
      - Connecting to `fineract_tenants` database
        ``` 
        FINERACT_HIKARI_JDBC_URL=jdbc:postgresql://localhost:5432/fineract_tenants
