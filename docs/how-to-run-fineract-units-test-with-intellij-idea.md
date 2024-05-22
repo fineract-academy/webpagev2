@@ -42,14 +42,14 @@ nav_order: 3
          - Go to `Run` > `Edit Configurations`.
          - Click the `+` button and select `JUnit`.
          - In the configuration settings:
-           - Set the JDK (e.g., "Java 17").
+           - Set the JDK: `Java 17` (example)
            - Choose the `fineract.fineract-provider.test` module
-           - VM options: -ea
+           - VM options: `-ea`
            - Select `Class` as type of search
            - Fully qualified name of the class that contains tests: `org.apache.fineract.infrastructure.businessdate.api.BusinessDateApiTest` (example)
            - Working directory: `$MODULE_WORKING_DIR$`
    - To execute Cucumber tests
-      - *IMPORTANT: This functionality requires [Cucumber for Java](https://plugins.jetbrains.com/plugin/7212-cucumber-for-java) plugin to be installed in the IntelliJ IDEA!*
+      - **IMPORTANT: This functionality requires [Cucumber for Java](https://plugins.jetbrains.com/plugin/7212-cucumber-for-java) plugin to be installed in the IntelliJ IDEA!**
       - Open the cucumber feature file you would like to execute
          - You can find them under `/src/test/resources/features` directory
          - Click on the green triangle icon next to the Feature name to execute all of the tests or click on the green triangle icon next to one of the scenarios to execute only that test case
@@ -59,18 +59,18 @@ nav_order: 3
          - In the configuration settings:
            - Main class: `io.cucumber.core.cli.Main`
            - Feature or folder path: `/<your fineract installation path>/fineract-provider/src/test/resources/features/accounting/accounting.common.feature` (example)
-           - Program arguments: ` --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter`
+           - Program arguments: `--plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter`
            - Working directory: `$MODULE_WORKING_DIR$`
            - Use classpath of module: `fineract.fineract-provider.test`
    - To execute every unit tests (JUnit and Cucumber as well)
-      - Right click on `src/test/java` directory in `fineract-provider` module and select `Run `Test in java`` option
+      - Right click on `src/test/java` directory in `fineract-provider` module and select `Run Tests in java` option
       - Alternatively: 
          - Go to `Run` > `Edit Configurations`.
          - Click the `+` button and select `JUnit`.
          - In the configuration settings:
-           - Set the JDK (e.g., "Java 17").
+           - Set the JDK: `Java 17` (example)
            - Choose the `fineract.fineract-provider.test` module
-           - VM options: -ea
+           - VM options: `-ea`
            - Select `All in directory` as type of search
            - Fully qualified path of the directory: `/<your fineract installation path>/fineract-provider/src/test/java`
            - Working directory: `$MODULE_WORKING_DIR$`
