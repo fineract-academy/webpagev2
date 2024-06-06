@@ -2,7 +2,7 @@
 layout: default
 permalink: /how-to-run-fineract-integration-test-with-intellij-idea.html
 title: How to run Apache Fineract® integration tests with IntelliJ IDEA
-nav_order: 3
+nav_order: 4
 ---
 
 ## How to run Apache Fineract® integration tests with IntelliJ IDEA
