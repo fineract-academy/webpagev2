@@ -6,7 +6,7 @@ parent: How To
 nav_order: 2
 ---
 
-## Building Apache Fineract® with IntelliJ IDEA
+## How to build Apache Fineract® with IntelliJ IDEA
 
 ### Prerequisites
 1. **Java**: Ensure you have Java Development Kit (JDK) installed. Apache Fineract® typically requires Java 17 (Java 21 is not yet supported).
