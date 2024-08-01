@@ -45,18 +45,13 @@ The new framework is using:
    - Open the `build.gradle` file in the project root directory.
    - IntelliJ IDEA will automatically start downloading the dependencies, if not you can do it manually as well by opening the "Gradle" window and click on `Reload All Gradle Projects`.
    - Further configurations can be found in the `settings.gradle` file
-5. **Configure to use IntelliJ Runner**
-   - On the top bar click on `IntelliJ IDEA/Settings...`
-   - On the left menu, select `Build, Execution, Deployment/Build Tools/Gradle`
-   - Select `IntelliJ IDEA` from the dropdown menu of `Run tests using`
-   - Click `Apply` and `OK`
-6. **Where are the integration tests?**
+5. **Where are the E2E tests?**
    - You can find the E2E tests in the 
-      - `fineract-e2e-tests-core` module: Contains all the core / common logics of calling APIs, configurations, enums, communication, etc.
+      - `fineract-e2e-tests-core` module: Contains all the core / common logics like calling APIs, configurations, enums, communication, etc.
       - `fineract-e2e-tets-runner` module: Contains the runner configuration and all the test specifications
-7. **Before executing E2E tests**
+6. **Before executing E2E tests**
    - You need to have a running instance of Fineract
-   - By default the E2E tests has the following configuration:
+   - By default the E2E tests has the following configurations:
      ### **Connection details to running backend**
      - `fineract-test.api.base-url=${BASE_URL:https://localhost:8443}`
      - `fineract-test.api.username=${TEST_USERNAME:mifos}`
@@ -81,7 +76,7 @@ The new framework is using:
    - To override any of the default value, just add new value with the same key as environment variable
      - **Example:**
        - `BASE_URL=http://localhost:8080`
-8. **Execute E2E tests**
+7. **Execute E2E tests**
    - **To execute E2E test**
       - Open any feature file in the `resources/features` directory of `fineract-e2e-tests-runner` module and click on the green triangle icon next to the class name to execute all of the tests or click on the green triangle icon next to one of the test methods to execute only that test case
       - Alternatively: 
