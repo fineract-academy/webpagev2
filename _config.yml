@@ -7,7 +7,7 @@ url: https://fineract-academy.com
 # Collections
 collections:
   howto: 
-    permalink: "/:collection/:path/"
+    permalink: "docs/:collection/:path/"
     output: true
     
 just_the_docs:
