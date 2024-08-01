@@ -77,7 +77,7 @@ The new framework is using:
      - **Example:**
        - `BASE_URL=http://localhost:8080`
 7. **Execute E2E tests**
-   - **To execute E2E test**
+   - **To execute a E2E test**
       - Open any feature file in the `resources/features` directory of `fineract-e2e-tests-runner` module and click on the green triangle icon next to the class name to execute all of the tests or click on the green triangle icon next to one of the test methods to execute only that test case
       - Alternatively: 
          - Go to `Run` > `Edit Configurations`.
