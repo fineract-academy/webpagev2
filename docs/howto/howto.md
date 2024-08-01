@@ -8,5 +8,5 @@ permalink: /howto
 
 # How to pages
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
+You can find useful informations on how to build, run or test the Apache Fineract® application.
 {: .fs-6 .fw-300 }
