@@ -16,7 +16,7 @@ nav_order: 5
 ### Fineract E2E tests
 A new testing framework got introduced to address some of the problems with the existing integration tests.
 
-**These problems:**
+**The problems:**
 1. Handcrafted, low level API calls via REST Assured library
 2. No type-safety, instead manual JSON parsing
 3. Hard to read and understand
