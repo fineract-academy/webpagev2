@@ -7,7 +7,14 @@ url: https://fineract-academy.com
 # Collections
 collections:
   howto: 
-    name: How To
+    permalink: "/:collection/:path/"
+    output: true
+    
+just_the_docs:
+  collections:
+    howto:
+      name: How To
+      nav_fold: false
 
 # External navigation links
 nav_external_links:
