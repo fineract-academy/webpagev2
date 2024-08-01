@@ -13,7 +13,7 @@ nav_order: 5
 3. **IntelliJ IDEA**: Install IntelliJ IDEA (Community or Ultimate edition).
 4. **Cucumber for Java plugin**: Install the Cucumber for Java plugin in IntelliJ IDEA for easier execution
 
-### Fineract E2E tests
+### Fineract E2E test framework
 A new testing framework got introduced to address some of the problems with the existing integration tests.
 
 **The problems:**
@@ -23,7 +23,7 @@ A new testing framework got introduced to address some of the problems with the 
 4. Full of duplicated logics and configurations
 5. etc.
 
-The new framework is using:
+**The new framework is using:**
 1. Using exclusively the `fineract-client` for communication with the running backend, hence type-safety
 2. We can write the test cases in Cucumber / Gherkin -> Easier to read + easier to specify test cases = easier contributions from non-developers
    
