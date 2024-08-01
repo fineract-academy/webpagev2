@@ -4,6 +4,11 @@ theme: just-the-docs
 ga_tracking: G-ZN98YLHK30
 url: https://fineract-academy.com
 
+# Collections
+collections:
+  howto: 
+    name: How To
+
 # External navigation links
 nav_external_links:
   - title: Official Apache Fineract® webpage
