@@ -20,12 +20,12 @@ A new testing framework got introduced to address some of the problems with the 
 1. Handcrafted, low level API calls via REST Assured library
 2. No type-safety, instead manual JSON parsing
 3. Hard to read and understand
-4. Full of duplicat logics and configurations
+4. Full of duplicated logics and configurations
 5. etc.
 
 The new framework is using:
-1. Exclusively the fineract-client, hence type-safety
-2. We can write the test cases in Cucumber / Gherkin -> Easier to read, easier to specify test cases, easier contribution from non-developers
+1. Using exclusively the `fineract-client` for communication with the running backend, hence type-safety
+2. We can write the test cases in Cucumber / Gherkin -> Easier to read + easier to specify test cases = easier contributions from non-developers
    
 ### Steps
 1. **Clone the Apache Fineract® Repository:**
