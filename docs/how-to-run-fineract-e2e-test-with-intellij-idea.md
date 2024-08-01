@@ -2,7 +2,7 @@
 layout: default
 permalink: /how-to-run-fineract-e2e-test-with-intellij-idea.html
 title: How to run Apache Fineract® E2E tests with IntelliJ IDEA
-nav_order: 4
+nav_order: 5
 ---
 
 ## How to run Apache Fineract® E2E tests with IntelliJ IDEA
