@@ -4,8 +4,6 @@ layout: home
 nav_order: 1
 ---
 
-<h3 style="color:red">WORK IN PROGRESS</h3>
-
 # What is Fineract® Academy?
 
 This is an <b>unofficial</b> site where I will share articles about the Apache Fineract®.
