@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How To
+title: How to
 nav_order: 2
 has_children: true
 permalink: /howto
