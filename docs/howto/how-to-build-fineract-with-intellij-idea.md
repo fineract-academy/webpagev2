@@ -2,7 +2,7 @@
 layout: default
 permalink: /how-to-build-fineract-with-intellij-idea.html
 title: How to build Apache Fineract® with IntelliJ IDEA
-parent: How To
+parent: How to
 nav_order: 2
 ---
 
