@@ -3,7 +3,7 @@ layout: default
 permalink: /loan-schedule-types.html
 title: Loan schedule types
 parent: Loan Management
-nav_order: 1
+nav_order: 2
 ---
 
 # Understanding Cumulative and Progressive Loan Schedule Types in Apache Fineract®
