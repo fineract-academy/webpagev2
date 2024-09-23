@@ -12,7 +12,7 @@ This site is intended to share my knowledge about Apache Fineract® and to help 
 
 The official Apache Fineract® site can be found here: <a target="_blank" ref="noreferrer" href="https://fineract.apache.org"><b>Official Apache Fineract® webpage</b></a>!
 
-# What is Apache Fineract®?
+## What is Apache Fineract®?
 
 Apache Fineract® is open source software for financial services.
 
