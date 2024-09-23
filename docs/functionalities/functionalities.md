@@ -6,7 +6,7 @@ has_children: true
 permalink: /functionalities
 ---
 
-# How to pages
+# Functionalities pages
 
 You can find useful informations about the functionalities of Apache Fineract®.
 {: .fs-6 .fw-300 }
