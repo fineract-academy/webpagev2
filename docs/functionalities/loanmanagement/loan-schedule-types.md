@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /loan-schedule-types.html
-title: Apache Fineract® loan schedule types
+title: Loan schedule types
 parent: Loan Management
 nav_order: 1
 ---
