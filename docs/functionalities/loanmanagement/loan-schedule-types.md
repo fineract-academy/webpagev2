@@ -3,6 +3,7 @@ layout: default
 permalink: /loan-schedule-types.html
 title: Loan schedule types
 parent: Loan Management
+grand_parent: Functionalities
 nav_order: 2
 ---
 
