@@ -120,4 +120,4 @@ Both **cumulative** and **progressive loan schedules** offer flexibility in stru
 Understanding these loan schedule types can help institutions offer more tailored loan products to their clients, improving overall customer satisfaction.
 
 ### Important
-Keep in mind that Apache Fineract®® is a complex project, and you may encounter issues or need to configure additional settings based on your specific environment and requirements. It's a good practice to refer to the official Apache Fineract®® documentation and the project's developer community for more details and troubleshooting!
+Keep in mind that Apache Fineract® is a complex project, and you may encounter issues or need to configure additional settings based on your specific environment and requirements. It's a good practice to refer to the official Apache Fineract® documentation and the project's developer community for more details and troubleshooting!
