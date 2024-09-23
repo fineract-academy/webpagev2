@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /loan-schedule-type.html
+permalink: /loan-schedule-types.html
 title: Apache Fineract® loan schedule types
 parent: Functionalities
 nav_order: 2
