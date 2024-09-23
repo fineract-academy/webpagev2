@@ -20,6 +20,12 @@ nav_external_links:
     opens_in_new_tab: true
 
 
+collections:
+  collections_dir: docs
+  howto:
+    output: true
+  functionalities:
+    output: true
 
 just_the_docs:
   collections:
