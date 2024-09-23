@@ -18,7 +18,18 @@ nav_external_links:
   - title: Official Apache Fineract® Confluence
     url: https://cwiki.apache.org/confluence/display/FINERACT/Fineract+Home
     opens_in_new_tab: true
-    
+
+
+
+just_the_docs:
+  collections:
+    functionalities:
+      name: Functionalities
+      nav_fold: false
+    howto:
+      name: How to
+      nav_fold: false
+      
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
