@@ -8,15 +8,23 @@ nav_order: 2
 
 # Understanding Cumulative and Progressive Loan Schedule Types in Apache Fineract®
 
-Apache Fineract® is an open-source platform designed to provide core banking functionalities, particularly for financial inclusion and microfinance. One of the critical components of any loan management system, including Apache Fineract®, is its ability to handle various **loan schedule types**. In this article, we'll explore two common loan schedule types in Apache Fineract®: **cumulative** and **progressive** loan schedules. We'll explain their differences and provide examples to demonstrate how they work in practice.
+One of the critical components of any loan management system, including Apache Fineract®, is its ability to handle various **loan schedule types**. 
+
+In this article, we'll explore two common loan schedule types in Apache Fineract®: **cumulative** and **progressive** loan schedules. We'll explain their differences and provide examples to demonstrate how they work in practice.
 
 ## What is a Loan Schedule?
 
-A loan schedule outlines how a loan is repaid over time. It includes details such as the number of installments, the amount to be paid in each installment, and whether the loan balance decreases over time. Apache Fineract® offers flexibility in setting up different types of loan schedules to meet the needs of various financial institutions and their clients.
+A loan schedule outlines how a loan is repaid over time. It includes details such as the number of installments, the amount to be paid in each installment, and whether the loan balance decreases over time. 
+
+Apache Fineract® offers flexibility in setting up different types of loan schedules to meet the needs of various financial institutions and their clients.
 
 ## Cumulative Loan Schedule
 
-In a **cumulative loan schedule**, the borrower pays a fixed amount in every installment over the entire loan tenure. This means that the principal and interest amounts are accumulated and distributed equally over the repayment period. The key characteristic of a cumulative schedule is that it maintains consistency, with the same amount due in every installment. **Same applies if multiple disbursements occurs at different stages of the loan life cycle!**
+In a **cumulative loan schedule**, the borrower pays a fixed amount in every installment over the entire loan tenure. This means that the principal and interest amounts are accumulated and distributed equally over the repayment period. 
+
+The key characteristic of a cumulative schedule is that it maintains consistency, with the same amount due in every installment. 
+
+**Same applies if multiple disbursements occurs at different stages of the loan life cycle!**
 
 ### How It Works
 
@@ -107,9 +115,9 @@ After the first 2 periods, additioanl $250 was disbursed, so the total outstandi
 
 ## Conclusion
 
-Both **cumulative** and **progressive loan schedules** offer flexibility in structuring repayments based on the borrower’s financial situation. Apache Fineract® supports these loan schedule types at the moment, making it a powerful platform for financial institutions that need to accommodate different client needs. Understanding these loan schedule types can help institutions offer more tailored loan products to their clients, improving overall customer satisfaction.
+Both **cumulative** and **progressive loan schedules** offer flexibility in structuring repayments based on the borrower’s financial situation. Apache Fineract® supports these loan schedule types at the moment, making it a powerful platform for financial institutions that need to accommodate different client needs. 
 
-By choosing the right loan schedule type, financial institutions can balance risk and client needs, ensuring both sustainable growth and positive client relationships.
+Understanding these loan schedule types can help institutions offer more tailored loan products to their clients, improving overall customer satisfaction.
 
 ### Important
 Keep in mind that Apache Fineract®® is a complex project, and you may encounter issues or need to configure additional settings based on your specific environment and requirements. It's a good practice to refer to the official Apache Fineract®® documentation and the project's developer community for more details and troubleshooting!
