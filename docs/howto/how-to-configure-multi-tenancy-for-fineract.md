@@ -20,7 +20,7 @@ Apache Fineract® supports multi-tenancy, which allows multiple clients (tenants
    - Apache Fineract® is storing the tenant details in a separate database.
      - First thing is to create the tenant details database:
        ```sql
-       CREATE DATABASE `fineract_tenants;`
+       CREATE DATABASE `fineract_tenants`;
        ```
      - Second thing is to configure JDBC connection details to connect to the tenant details database in Apache Fineract®. Default configuration is using MariaDB related configuration.
        - JDBC driver to be used to connect to database(s) (default value: `org.mariadb.jdbc.Driver`)
@@ -44,7 +44,7 @@ Apache Fineract® supports multi-tenancy, which allows multiple clients (tenants
 2. **Create a new database for the 1st tenant (mandatory):**
    - With Apache Fineract® there must be at least 1 tenant to be configured, so first thing is to create the database for the 1st tenant (default value is `fineract_defaul`, but can be overridden):
        ```sql
-       CREATE DATABASE `fineract_default;`
+       CREATE DATABASE `fineract_default`;
        ```
      - Second thing is to configure the 1st tenant in Apache Fineract®. By default the liquibase scripts are reading the 1st (default) tenant details from the `application.properties`
        - Tenant database host (default value: `localhost`)
@@ -121,7 +121,7 @@ Apache Fineract® supports multi-tenancy, which allows multiple clients (tenants
 3. **Create a new database for the 2nd tenant (optional):**
    - First thing is to create the database for the 2nd tenant (like: `fineract_test`):
        ```sql
-       CREATE DATABASE `fineract_test;`
+       CREATE DATABASE `fineract_test`;
        ```
    - Secong thing is different now, we cannot configure additional tenants the same way we did for the 1st one, we need to manually create 2 more entries in the `fineract_tenants` database:
      - First entry is into the `tenant_server_connections` table:
