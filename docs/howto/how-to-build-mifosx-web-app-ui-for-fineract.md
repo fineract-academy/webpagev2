@@ -13,8 +13,8 @@ The Mifos X Web App UI is an Angular-based frontend interface that interacts wit
 In this guide, we will walk through the steps required to download the Mifos X Web App UI, build it, and configure it to work with a locally running Apache Fineract® backend.
 
 ### Prerequisites
-1. **Node.js (LTS version preferred)**: This will be the runtime environment.
-2. **Angular CLI**: a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications directly from a command shell.
+1. **Node.js (LTS version preferred, example: 22.9.0)**: This will be the runtime environment.
+2. **Angular CLI (16.0.2)**: a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications directly from a command shell.
 3. **Git**: You'll need Git to clone the Mifos X Web App source code from the repository.
 4. **A locally running Apache Fineract® backend instance**: 
    
