@@ -166,9 +166,20 @@ Apache Fineract® supports multi-tenancy, which allows multiple clients (tenants
       - `report_id`: Id of entry of `tenant_servier_connections`, it's possible to use a different connection details for reporting (but usually it is the same as `oltp_id`) (like: `2`)  
   - **Important: Apache Fineract® will initialize the new tenant database via liquibase when the application got restarted!**!
     
-4. **Conclusion:**
-  - By following these steps, you can easily download, build, and configure the Mifos X Web App UI to connect with a locally running Apache Fineract® backend. This setup enables you to explore, develop, and customize the UI to suit your organization's needs.
-  - Feel free to contribute to the open-source community by submitting any issues or pull requests to the Mifos X Web App repository.
+4. **How to use tenants:**
+  - When we configured each tenants, we can target them the following ways:
+     - As header parameter
+        - `Fineract-Platform-TenantId: {tenant identifier}`
+           - Example: `Fineract-Platform-TenantId: default` -> target `default` tenant
+     - As query parameter
+        - `tenantIdentifier={tenant identifier}`
+           - Example: `tenantIdentifier=default` -> target `default` tenant
+   - **Important: Apache Fineract® will always requires a tenant to be targeted**!
+
+5. **Conclusion:**
+   - Each tenant can have its own database which contains the users, configurations, products, etc.
+   - First thing is identifying the tenant based on the provided parameters and after authenticating and authorizing the request
+   - By default the `default` tenant is created and configured
 
 ### Important
 Keep in mind that Mifos X Web App is a complex project, and you may encounter issues or need to configure additional settings based on your specific environment and requirements. It's a good practice to refer to the official Mifos X Web App documentation and the project's developer community for more details and troubleshooting!
