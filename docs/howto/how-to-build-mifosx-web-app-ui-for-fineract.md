@@ -1,12 +1,12 @@
 ---
 layout: default
 permalink: /how-to-build-mifosx-web-app-ui-for-fineract.html
-title: How to build Mifos X Web App UI for Apache Fineract®
+title: How to build and run Mifos X Web App UI for Apache Fineract®
 parent: How to
 nav_order: 6
 ---
 
-## How to build Mifos X Web App UI for Apache Fineract®
+## How to build and run Mifos X Web App UI for Apache Fineract®
 
 ### Introduction
 The Mifos X Web App UI is an Angular-based frontend interface that interacts with the Apache Fineract® backend to provide users with a seamless banking experience. 
