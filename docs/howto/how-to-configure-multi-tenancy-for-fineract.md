@@ -1,12 +1,12 @@
 ---
 layout: default
 permalink: /how-to-configure-multi-tenancy-for-fineract.html
-title: How to configure multi-tenancy for Apache Fineract®
+title: How to configure and use multi-tenancy for Apache Fineract®
 parent: How to
 nav_order: 7
 ---
 
-## How to configure multi-tenancy for Apache Fineract®
+## How to configure and use multi-tenancy for Apache Fineract®
 
 ### Introduction
 Apache Fineract® supports multi-tenancy, which allows multiple clients (tenants) to use the same instance of the application but keep their data isolated from each other.
