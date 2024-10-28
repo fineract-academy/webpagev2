@@ -17,8 +17,30 @@ In this guide, we will walk through the steps required to download the Mifos X W
 2. **Angular CLI (16.0.2)**: a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications directly from a command shell.
 3. **Git**: You'll need Git to clone the Mifos X Web App source code from the repository.
 4. **A locally running Apache Fineract® backend instance**: 
-   
-### Steps
+
+### Steps to run (only)
+1. **Docker:**
+   - You can find pre-built Docker images at the openMF docker repository: `https://hub.docker.com/r/openmf/web-app`
+   - Pull image: `docker pull openmf/web-app:master`
+   - You can then run a Docker Container from the image:
+       ```bash
+       docker run -d -p 4200:80 openmf/web-app:master
+       ```
+   - You can also setup different configurations using environment variables:
+       - `FINERACT_API_URLS`: Apache Fineract® servers list (if multiple backends are supported by the UI)
+       - `FINERACT_API_URL` : Default Apache Fineract® backend server URL
+       - `FINERACT_PLATFORM_TENANTS_IDENTIFIER`: Apache Fineract® tenants list (if multiple tenants are supported by the UI)
+       - `FINERACT_PLATFORM_TENANT_IDENTIFIER`: Default Apache Fineract® tenant
+       - `MIFOS_DISPLAY_TENANT_SELECTOR`: Whether tenant selector should be displayed
+
+      **The list is not complete!**
+2. **Testing the Connection:**
+   - After the Mifos X Web App UI is up and running, you can log in using the default Apache Fineract® credentials.
+     - Username: `mifos`
+     - Password: `password`
+   - Once logged in, you should be able to access the functionalities provided by the Apache Fineract® backend, such as client management, loan management, and more.
+
+### Steps to build and run
 1. **Clone the Mifos X Web App Repository:**
    - Open a terminal or command prompt and navigate to the directory where you want to store the Mifos X Web source code.
    - Run the following command to clone the repository:
