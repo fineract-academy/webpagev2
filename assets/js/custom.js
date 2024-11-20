@@ -13,7 +13,7 @@ function fetchContributionCounter() {
       })
       .then(data => {
         // Display data in an HTML element
-        document.getElementById("top").textContent = JSON.stringify(data.filter(el => el.login === "adamsaghy")[0].contributions, null, 2);
+        document.getElementById("contributionCounter").textContent = JSON.stringify(data.filter(el => el.login === "adamsaghy")[0].contributions, null, 2);
       })
       .catch(error => {
         console.error('Error:', error);
