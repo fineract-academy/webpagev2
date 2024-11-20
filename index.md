@@ -15,6 +15,7 @@ The official Apache Fineract® site can be found here: <a target="_blank" ref="n
 ## About me
 
 Hi, my name is Adam Saghy a principal software engineer, who has been working in the past 7 years on fintech projects and started to contribute to Fineract. 
+
 2 years ago I also became a member of the Apache Fineract® PMC committee, the governance body of the project.
 
 ## What is Apache Fineract®?
