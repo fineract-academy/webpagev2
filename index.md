@@ -12,6 +12,11 @@ This site is intended to share my knowledge about Apache Fineract® and to help 
 
 The official Apache Fineract® site can be found here: <a target="_blank" ref="noreferrer" href="https://fineract.apache.org"><b>Official Apache Fineract® webpage</b></a>!
 
+## About me
+
+Hi, my name is Adam Saghy a principal software engineer, who has been working in the past 7 years on fintech projects and started to contribute to Fineract. 
+2 years ago I also became a member of the Apache Fineract® PMC committee, the governance body of the project.
+
 ## What is Apache Fineract®?
 
 Apache Fineract® is open source software for financial services.
