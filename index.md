@@ -18,8 +18,6 @@ Hi, my name is Adam Saghy a principal software engineer, who has been working in
 
 Number of commits: <span id="contributionCounter"/>
 
-Number of reviewed pull requests: <span id="prReviewCounter"/>
-
 2 years ago I also became a member of the Apache Fineract® PMC committee, the governance body of the project.
 
 ## What is Apache Fineract®?
