@@ -2,6 +2,7 @@
 title: Homepage
 layout: home
 nav_order: 1
+comments: true
 ---
 
 # What is Fineract® Academy?
