@@ -5,6 +5,7 @@ title: Loan schedule types
 parent: Loan Management
 grand_parent: Functionalities
 nav_order: 2
+comments: true
 ---
 
 # Understanding Cumulative and Progressive Loan Schedule Types in Apache Fineract®

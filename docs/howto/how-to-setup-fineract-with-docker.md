@@ -4,6 +4,7 @@ permalink: /how-to-setup-fineract-with-docker.html
 title: How to setup Apache Fineract® with Docker
 parent: How to
 nav_order: 8
+comments: true
 ---
 
 ## How to setup Apache Fineract® with Docker

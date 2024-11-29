@@ -4,6 +4,7 @@ permalink: /how-to-run-fineract-integration-test-with-intellij-idea.html
 title: How to run Apache Fineract® integration tests with IntelliJ IDEA
 parent: How to
 nav_order: 4
+comments: true
 ---
 
 ## How to run Apache Fineract® integration tests with IntelliJ IDEA

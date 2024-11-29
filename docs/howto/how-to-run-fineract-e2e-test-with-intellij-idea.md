@@ -4,6 +4,7 @@ permalink: /how-to-run-fineract-e2e-test-with-intellij-idea.html
 title: How to run Apache Fineract® E2E tests with IntelliJ IDEA
 parent: How to
 nav_order: 5
+comments: true
 ---
 
 ## How to run Apache Fineract® E2E tests with IntelliJ IDEA

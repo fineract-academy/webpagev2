@@ -5,6 +5,7 @@ nav_order: 1
 has_children: true
 permalink: /loan-management
 parent: Functionalities
+comments: true
 ---
 
 # Loan management pages

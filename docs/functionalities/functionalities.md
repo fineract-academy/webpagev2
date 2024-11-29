@@ -4,6 +4,7 @@ title: Functionalities
 nav_order: 3
 has_children: true
 permalink: /functionalities
+comments: true
 ---
 
 # Functionalities pages

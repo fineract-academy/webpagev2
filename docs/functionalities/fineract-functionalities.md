@@ -4,6 +4,7 @@ permalink: /fineract-functionalities.html
 title: Apache Fineract® functionalities
 parent: Functionalities
 nav_order: 1
+comments: true
 ---
 
 # Apache Fineract® Functionalities

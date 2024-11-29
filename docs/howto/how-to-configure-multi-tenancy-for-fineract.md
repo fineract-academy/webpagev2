@@ -4,6 +4,7 @@ permalink: /how-to-configure-multi-tenancy-for-fineract.html
 title: How to configure and use multi-tenancy for Apache Fineract®
 parent: How to
 nav_order: 7
+comments: true
 ---
 
 ## How to configure and use multi-tenancy for Apache Fineract®

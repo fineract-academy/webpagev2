@@ -4,6 +4,7 @@ permalink: /how-to-build-mifosx-web-app-ui-for-fineract.html
 title: How to build and run Mifos X Web App UI for Apache Fineract®
 parent: How to
 nav_order: 6
+comments: true
 ---
 
 ## How to build and run Mifos X Web App UI for Apache Fineract®
